@@ -1,0 +1,47 @@
+@import '~bpk-stylesheets/base';
+@import '~bpk-mixins/index';
+
+.App {
+  text-align: center;
+
+  &__header {
+    padding: $bpk-spacing-xl 0;
+    background-color: $bpk-color-blue-500;
+    background-image: $bpk-primary-gradient;
+    color: $bpk-color-white;
+
+    @include bpk-box-shadow-sm;
+
+    @include bpk-breakpoint-mobile {
+      padding: $bpk-spacing-base 0;
+    }
+  }
+
+  &_container {
+    @include bpk-grid__container;
+  }
+
+  &__row {
+    @include bpk-grid__row;
+    @include bpk-grid__row--padded;
+  }
+
+  &__column {
+    @include bpk-grid__column;
+    @include bpk-grid__column--(12);
+    @include bpk-grid__column--padded;
+  }
+
+  &__heading {
+    @include bpk-text;
+    @include bpk-text--xxl;
+  }
+
+  &__main {
+    padding: $bpk-spacing-base 0;
+  }
+
+  &__button {
+    @include bpk-button;
+  }
+}

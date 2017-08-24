@@ -1,0 +1,36 @@
+{
+  "name": "backpack-scss-starter",
+  "version": "1.0.0",
+  "description": "A starter kit for Backpack Sass projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyscanner/backpack-scss-starter.git"
+  },
+  "keywords": [
+    "backpack",
+    "scss",
+    "bpk-mixins",
+    "starter",
+    "kit"
+  ],
+  "author": "Matthew Davidson <matthew.davidson@skyscanner.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Skyscanner/backpack-scss-starter/issues"
+  },
+  "homepage": "https://github.com/Skyscanner/backpack-scss-starter#readme",
+  "devDependencies": {
+    "bpk-mixins": "^16.3.1",
+    "bpk-stylesheets": "^3.2.53",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "node-sass-tilde-importer": "^1.0.0"
+  }
+}
