@@ -4,12 +4,11 @@
 
 ## Requirements
 
-* Node
-* Yarn
+See Skyscanner's [`ensure-node-env`](https://github.com/Skyscanner/ensure-node-env#guide) guide.
 
 ## Getting started
 
 ```sh
-yarn        # Installs dependencies
-yarn start  # Starts the dev watcher and livereload server
+npm install   # Installs dependencies
+npm start     # Starts the dev watcher and livereload server
 ```
