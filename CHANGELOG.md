@@ -8,3 +8,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 - Use ensure-node-env
 - Use npm instead of yarn
 - Upgraded gulp-cli and bpk-mixins
+- Add `send` and `serve-index` as top level deps to get aroudn security vulnerabilties
