@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "A starter kit for Backpack Sass projects.",
   "main": "index.js",
+  "engines": {
+    "node": "^8.9.4",
+    "npm": "^5.6.0"
+  },
   "scripts": {
+    "preinstall": "node -e \"$(curl -fsSL https://raw.githubusercontent.com/Skyscanner/ensure-node-env/master/dist/index.js)\"",
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,10 +30,10 @@
   },
   "homepage": "https://github.com/Skyscanner/backpack-scss-starter#readme",
   "devDependencies": {
-    "bpk-mixins": "^16.3.1",
+    "bpk-mixins": "^17.2.4",
     "bpk-stylesheets": "^3.2.53",
     "gulp": "^3.9.1",
-    "gulp-cli": "^1.4.0",
+    "gulp-cli": "^2.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-server-livereload": "^1.9.2",
     "node-sass-tilde-importer": "^1.0.0"
