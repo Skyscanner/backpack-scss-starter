@@ -36,6 +36,8 @@
     "gulp-cli": "^2.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-server-livereload": "^1.9.2",
-    "node-sass-tilde-importer": "^1.0.0"
+    "node-sass-tilde-importer": "^1.0.0",
+    "send": "^0.16.1",
+    "serve-index": "^1.9.1"
   }
 }
