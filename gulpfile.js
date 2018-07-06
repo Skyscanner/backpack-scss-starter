@@ -1,30 +1,27 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var server = require('gulp-server-livereload');
-var tildeImporter = require('node-sass-tilde-importer');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const server = require('gulp-server-livereload');
+const tildeImporter = require('node-sass-tilde-importer');
 
-var paths = {
-  scss: ['scss/**/*.scss']
+const paths = {
+  scss: ['scss/**/*.scss'],
 };
 
-gulp.task('scss', function() {
-  return gulp.src(paths.scss)
-    .pipe(sass({
-      importer: tildeImporter
-    }).on('error', sass.logError))
-    .pipe(gulp.dest('./dist/'));
-});
+gulp.task('scss', () => gulp.src(paths.scss)
+  .pipe(sass({
+    importer: tildeImporter,
+  }).on('error', sass.logError))
+  .pipe(gulp.dest('./dist/')));
 
-gulp.task('server', function() {
+gulp.task('server', () => {
   gulp.src('./')
     .pipe(server({
       livereload: true,
-      directoryListing: true,
-      open: true
+      open: true,
     }));
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', () => {
   gulp.watch(paths.scss, ['scss']);
 });
 
