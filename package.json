@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Skyscanner/backpack-scss-starter#readme",
   "devDependencies": {
-    "babel-eslint": "^8.2.5",
+    "babel-eslint": "^9.0.0",
     "bpk-mixins": "^17.10.4",
     "bpk-stylesheets": "^3.2.110",
     "eslint": "^4.19.1",
