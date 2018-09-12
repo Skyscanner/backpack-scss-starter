@@ -1,5 +1,6 @@
 # Backpack Sass Starter Kit
 
+[![Build Status](https://travis-ci.org/Skyscanner/backpack-scss-starter.svg?branch=master)](https://travis-ci.org/Skyscanner/backpack-scss-starter)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Skyscanner/backpack-scss-starter.svg)](https://greenkeeper.io/)
 
 > A starter kit to get starter with `bpk-mixins` without Webpack!
