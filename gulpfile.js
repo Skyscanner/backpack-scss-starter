@@ -7,18 +7,24 @@ const paths = {
   scss: ['scss/**/*.scss'],
 };
 
-gulp.task('scss', () => gulp.src(paths.scss)
-  .pipe(sass({
-    importer: tildeImporter,
-  }).on('error', sass.logError))
-  .pipe(gulp.dest('./dist/')));
+gulp.task('scss', () =>
+  gulp
+    .src(paths.scss)
+    .pipe(
+      sass({
+        importer: tildeImporter,
+      }).on('error', sass.logError),
+    )
+    .pipe(gulp.dest('./dist/')),
+);
 
 gulp.task('server', () => {
-  gulp.src('./')
-    .pipe(server({
+  gulp.src('./').pipe(
+    server({
       livereload: true,
       open: true,
-    }));
+    }),
+  );
 });
 
 gulp.task('watch', () => {

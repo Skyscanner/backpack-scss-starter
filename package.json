@@ -4,8 +4,8 @@
   "description": "A starter kit for Backpack Sass projects.",
   "main": "index.js",
   "engines": {
-    "node": "^8.11.3",
-    "npm": "^5.6.0"
+    "node": "^8.12.0",
+    "npm": "^6.4.1"
   },
   "scripts": {
     "preinstall": "npx ensure-node-env",
@@ -30,16 +30,9 @@
   },
   "homepage": "https://github.com/Skyscanner/backpack-scss-starter#readme",
   "devDependencies": {
-    "babel-eslint": "^8.2.5",
-    "bpk-mixins": "^17.10.4",
-    "bpk-stylesheets": "^3.2.110",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-skyscanner": "^4.0.0-beta.4",
-    "eslint-plugin-backpack": "^0.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.0",
-    "eslint-plugin-react": "^7.10.0",
+    "bpk-mixins": "^17.11.14",
+    "bpk-stylesheets": "^3.2.126",
+    "eslint-config-skyscanner-with-prettier": "^0.3.0",
     "gulp": "^3.9.1",
     "gulp-cli": "^2.0.1",
     "gulp-sass": "^4.0.1",
