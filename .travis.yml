@@ -4,6 +4,7 @@ node_js:
 env:
   global:
     - NPM_CONFIG_LOGLEVEL=warn
+    - secure: HPLcVsQPtCsHVHfWl/yUOeMRF32PdfF4AGYGBChEYmePMj3OifZEbqP//g4Qk6W7jf9ULd+SR8D8mc4TTPDyF4MZ1Iypeq1rMLZ/JWR63CAXfv0O10NjcmdsZryJlEvbVaJ4Z//0xyX0R9V048aaYLcdML/thkrT23yHB+buDlNFWJ1BkmcNxPB9qcid0n+yKKqLcpKUITKbx9mopsxsvmfTJypBgAOnviU2OFN+TI/ORjGtZbh2hyJb/Su0soBcTKbg3OGo4rRXnqfOX2uYvWRxz/QRNMLCXo1IC7cGnumiYcWPWc3eaVZSUDrC8m00qvywsU+vFPToNdQD+3NMmtJQnkRZ2i6qkzyWzYfgmp4XsWUcgJrNdANwcJduGaejctztEUEVbGgq/xTIQmVHuShmlUSIlvcGdYMg+h/NDHNyORmHz60aiDa6kUCE12l3VeBa8cl3SacPlFRSbzDfwf0eQti8U05etaJX6AzBln/W+WavvyFf/BUrgbuBK4C5DiG7VVWstTQeujW9vCzceNl2oc99VD1ur94xjFVUxO++yG9vc//zKUMINBIcd9oPi4eILpaUJ/9rx+OvnYqFEiCMBRb5mlvzjDnXqS7riVk9BrWe4Y9xL8NzkHbDPxQQgxgmuUPHXhM4eE35Ho3y96TisHDvTzkzE+BIrJh5sCg=
 install:
   - npm install
 script:
