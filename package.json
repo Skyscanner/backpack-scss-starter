@@ -33,7 +33,7 @@
     "bpk-mixins": "^17.11.14",
     "bpk-stylesheets": "^3.2.126",
     "eslint-config-skyscanner-with-prettier": "^0.3.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-sass": "^4.0.1",
     "gulp-server-livereload": "^1.9.2",
