@@ -1,13 +1,13 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const server = require('gulp-server-livereload');
+const livereloadServer = require('gulp-server-livereload');
 const tildeImporter = require('node-sass-tilde-importer');
 
 const paths = {
   scss: ['scss/**/*.scss'],
 };
 
-gulp.task('scss', () =>
+const scss = () =>
   gulp
     .src(paths.scss)
     .pipe(
@@ -15,20 +15,16 @@ gulp.task('scss', () =>
         importer: tildeImporter,
       }).on('error', sass.logError),
     )
-    .pipe(gulp.dest('./dist/')),
-);
+    .pipe(gulp.dest('./dist/'));
 
-gulp.task('server', () => {
+const server = () =>
   gulp.src('./').pipe(
-    server({
+    livereloadServer({
       livereload: true,
       open: true,
     }),
   );
-});
 
-gulp.task('watch', () => {
-  gulp.watch(paths.scss, ['scss']);
-});
+const watch = () => gulp.watch(paths.scss).on('all', gulp.series(scss));
 
-gulp.task('default', ['scss', 'watch', 'server']);
+gulp.task('default', gulp.series(scss, gulp.parallel([watch, server])));
