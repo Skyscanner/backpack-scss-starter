@@ -32,7 +32,7 @@
   "devDependencies": {
     "bpk-mixins": "^17.14.2",
     "bpk-stylesheets": "^3.2.152",
-    "eslint-config-skyscanner-with-prettier": "^0.8.0",
+    "eslint-config-skyscanner-with-prettier": "^1.0.0",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-sass": "^4.0.2",
