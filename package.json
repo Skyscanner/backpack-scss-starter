@@ -10,7 +10,9 @@
   "scripts": {
     "preinstall": "npx ensure-node-env",
     "start": "gulp",
-    "test": "eslint ."
+    "test": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -38,5 +40,9 @@
     "gulp-sass": "^4.0.2",
     "gulp-server-livereload": "^1.9.2",
     "node-sass-tilde-importer": "^1.0.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.319.1"
   }
 }
