@@ -1,0 +1,95 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp-server-livereload > socket.io > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > engine.io > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-client > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-parser > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2020-05-07T07:50:00.007Z'
+  'npm:extend:20180424':
+    - gulp-cli > liftoff > extend:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2020-05-07T07:50:00.007Z'
+  SNYK-JS-LODASH-567746:
+    - eslint-config-skyscanner-with-prettier > eslint > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > eslint-plugin-backpack > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > eslint-plugin-import > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > eslint > inquirer > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > eslint > table > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > lodash:
+        patched: '2020-05-07T07:50:00.007Z'
+  'npm:mime:20170907':
+    - gulp-server-livereload > serve-static > send > mime:
+        patched: '2020-05-07T07:50:00.007Z'
+  'npm:minimatch:20160620':
+    - gulp-server-livereload > vinyl-fs > glob-stream > minimatch:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2020-05-07T07:50:00.007Z'
+  'npm:ms:20170412':
+    - gulp-server-livereload > socket.io > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > engine.io > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-client > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-parser > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+  'npm:ms:20151024':
+    - gulp-server-livereload > connect > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > serve-static > send > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > connect > finalhandler > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+    - gulp-server-livereload > serve-static > send > debug > ms:
+        patched: '2020-05-07T07:50:00.007Z'
+  'npm:negotiator:20160616':
+    - gulp-server-livereload > serve-index > accepts > negotiator:
+        patched: '2020-05-07T07:50:00.007Z'
