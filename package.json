@@ -4,13 +4,15 @@
   "description": "A starter kit for Backpack Sass projects.",
   "main": "index.js",
   "engines": {
-    "node": "^8.12.0",
-    "npm": "^6.4.1"
+    "node": "^12.13.0",
+    "npm": "^6.12.0"
   },
   "scripts": {
     "preinstall": "npx ensure-node-env",
     "start": "gulp",
-    "test": "eslint ."
+    "test": "eslint .",
+    "lint:js:fix": "eslint . --ext js,jsx --fix",
+    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -30,12 +32,12 @@
   },
   "homepage": "https://github.com/Skyscanner/backpack-scss-starter#readme",
   "devDependencies": {
-    "bpk-mixins": "^17.14.2",
-    "bpk-stylesheets": "^3.2.152",
-    "eslint-config-skyscanner-with-prettier": "^0.8.0",
-    "gulp": "^4.0.0",
-    "gulp-cli": "^2.0.1",
-    "gulp-sass": "^4.0.2",
+    "bpk-mixins": "^20.0.8",
+    "bpk-stylesheets": "^6.0.46",
+    "eslint-config-skyscanner": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
     "gulp-server-livereload": "^1.9.2",
     "node-sass-tilde-importer": "^1.0.2"
   }
